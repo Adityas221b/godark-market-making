@@ -1,0 +1,344 @@
+[
+ {
+  "asset": "BTC",
+  "bars": 10080,
+  "first_open_ms": 1789316280000,
+  "last_open_ms": 1789921020000,
+  "test_hours": 67.33333333333333,
+  "rows": [
+   {
+    "queue": 1.0,
+    "model": "constant (control)",
+    "liq_bp": 4.0,
+    "c_risk": 0.0,
+    "spread_per_h": 185.73,
+    "total_per_h": -293.04,
+    "fills_per_h": 17.69
+   },
+   {
+    "queue": 1.0,
+    "model": "realized_60",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 197.14,
+    "total_per_h": -281.22,
+    "fills_per_h": 15.49
+   },
+   {
+    "queue": 1.0,
+    "model": "ewma_0.94",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 201.67,
+    "total_per_h": -277.16,
+    "fills_per_h": 15.52
+   },
+   {
+    "queue": 1.0,
+    "model": "absdev_60",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 195.7,
+    "total_per_h": -287.81,
+    "fills_per_h": 16.47
+   },
+   {
+    "queue": 1.0,
+    "model": "har_rv",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 199.53,
+    "total_per_h": -281.94,
+    "fills_per_h": 15.52
+   },
+   {
+    "queue": 1.0,
+    "model": "garch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 199.51,
+    "total_per_h": -285.46,
+    "fills_per_h": 16.0
+   },
+   {
+    "queue": 1.0,
+    "model": "gjr",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 198.66,
+    "total_per_h": -281.87,
+    "fills_per_h": 15.43
+   },
+   {
+    "queue": 1.0,
+    "model": "egarch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 196.85,
+    "total_per_h": -274.51,
+    "fills_per_h": 14.6
+   },
+   {
+    "queue": 1.0,
+    "model": "aparch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 199.52,
+    "total_per_h": -278.97,
+    "fills_per_h": 15.04
+   },
+   {
+    "queue": 0.3,
+    "model": "constant (control)",
+    "liq_bp": 4.0,
+    "c_risk": 0.0,
+    "spread_per_h": 59.29,
+    "total_per_h": -100.89,
+    "fills_per_h": 5.65
+   },
+   {
+    "queue": 0.3,
+    "model": "realized_60",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 61.95,
+    "total_per_h": -95.02,
+    "fills_per_h": 4.85
+   },
+   {
+    "queue": 0.3,
+    "model": "ewma_0.94",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 61.27,
+    "total_per_h": -96.15,
+    "fills_per_h": 4.75
+   },
+   {
+    "queue": 0.3,
+    "model": "absdev_60",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 60.92,
+    "total_per_h": -105.34,
+    "fills_per_h": 5.14
+   },
+   {
+    "queue": 0.3,
+    "model": "har_rv",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 63.01,
+    "total_per_h": -68.17,
+    "fills_per_h": 4.88
+   },
+   {
+    "queue": 0.3,
+    "model": "garch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 63.09,
+    "total_per_h": -91.44,
+    "fills_per_h": 5.05
+   },
+   {
+    "queue": 0.3,
+    "model": "gjr",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 63.06,
+    "total_per_h": -97.28,
+    "fills_per_h": 4.92
+   },
+   {
+    "queue": 0.3,
+    "model": "egarch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 61.1,
+    "total_per_h": -104.37,
+    "fills_per_h": 4.57
+   },
+   {
+    "queue": 0.3,
+    "model": "aparch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 62.25,
+    "total_per_h": -91.88,
+    "fills_per_h": 4.68
+   }
+  ]
+ },
+ {
+  "asset": "ETH",
+  "bars": 10080,
+  "first_open_ms": 1789316280000,
+  "last_open_ms": 1789921020000,
+  "test_hours": 67.33333333333333,
+  "rows": [
+   {
+    "queue": 1.0,
+    "model": "constant (control)",
+    "liq_bp": 8.0,
+    "c_risk": 0.0,
+    "spread_per_h": 293.73,
+    "total_per_h": -321.37,
+    "fills_per_h": 13.05
+   },
+   {
+    "queue": 1.0,
+    "model": "realized_60",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 370.45,
+    "total_per_h": -505.13,
+    "fills_per_h": 25.65
+   },
+   {
+    "queue": 1.0,
+    "model": "ewma_0.94",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 374.66,
+    "total_per_h": -513.48,
+    "fills_per_h": 25.71
+   },
+   {
+    "queue": 1.0,
+    "model": "absdev_60",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 364.62,
+    "total_per_h": -498.63,
+    "fills_per_h": 28.37
+   },
+   {
+    "queue": 1.0,
+    "model": "har_rv",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 367.32,
+    "total_per_h": -482.95,
+    "fills_per_h": 25.17
+   },
+   {
+    "queue": 1.0,
+    "model": "garch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 367.89,
+    "total_per_h": -500.12,
+    "fills_per_h": 25.46
+   },
+   {
+    "queue": 1.0,
+    "model": "gjr",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 369.21,
+    "total_per_h": -498.77,
+    "fills_per_h": 25.53
+   },
+   {
+    "queue": 1.0,
+    "model": "egarch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 375.75,
+    "total_per_h": -508.35,
+    "fills_per_h": 25.2
+   },
+   {
+    "queue": 1.0,
+    "model": "aparch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 371.91,
+    "total_per_h": -506.92,
+    "fills_per_h": 25.05
+   },
+   {
+    "queue": 0.3,
+    "model": "constant (control)",
+    "liq_bp": 4.0,
+    "c_risk": 0.0,
+    "spread_per_h": 106.91,
+    "total_per_h": -136.46,
+    "fills_per_h": 10.18
+   },
+   {
+    "queue": 0.3,
+    "model": "realized_60",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 119.97,
+    "total_per_h": -144.06,
+    "fills_per_h": 8.39
+   },
+   {
+    "queue": 0.3,
+    "model": "ewma_0.94",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 120.32,
+    "total_per_h": -165.68,
+    "fills_per_h": 8.25
+   },
+   {
+    "queue": 0.3,
+    "model": "absdev_60",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 117.83,
+    "total_per_h": -147.08,
+    "fills_per_h": 9.22
+   },
+   {
+    "queue": 0.3,
+    "model": "har_rv",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 117.54,
+    "total_per_h": -150.02,
+    "fills_per_h": 8.08
+   },
+   {
+    "queue": 0.3,
+    "model": "garch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 120.95,
+    "total_per_h": -140.86,
+    "fills_per_h": 8.3
+   },
+   {
+    "queue": 0.3,
+    "model": "gjr",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 119.62,
+    "total_per_h": -145.15,
+    "fills_per_h": 8.24
+   },
+   {
+    "queue": 0.3,
+    "model": "egarch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 119.31,
+    "total_per_h": -156.25,
+    "fills_per_h": 8.05
+   },
+   {
+    "queue": 0.3,
+    "model": "aparch",
+    "liq_bp": 4.0,
+    "c_risk": 0.0005,
+    "spread_per_h": 119.93,
+    "total_per_h": -151.37,
+    "fills_per_h": 8.02
+   }
+  ]
+ }
+]
